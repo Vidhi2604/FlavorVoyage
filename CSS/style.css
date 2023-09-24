@@ -1,0 +1,237 @@
+
+/* Universal Start */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.secondary{
+    color: red;
+}
+
+img-responsive{
+    width: 100%;
+}
+h2{
+    font-family :  sans-serif; 
+}
+
+p{
+    font-family :  sans-serif;
+    color: gray;
+}
+
+button{
+    color: #fff;
+    padding: 2.5%;
+    margin-bottom:5%;
+    background-image: linear-gradient(to right, red ,rgb(243, 70, 70));
+    border-radius: 25px;
+    cursor: pointer;
+    border: transparent;
+}
+
+ button:hover{
+    background-image: linear-gradient(to left, red ,rgb(243, 70, 70));
+}
+
+button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Universal End*/
+
+/* <!-- Nav Section Start --> */
+
+.navBar{
+    position: sticky;
+    top: 0;
+    background-color:black;
+    padding-bottom: 1%;
+ }
+
+.topNav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+    height: 5vh;
+}
+
+.navBar a{
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.topNav .logo a{
+    color: white;
+    font-weight: 1100;
+    letter-spacing: 0.1em;
+    font-family : sans-serif;
+}
+
+.topNav .logo a span{
+    color: red;
+}
+
+.topNav .navItems{
+    margin-right: 1%;
+}
+
+.topNav .navItems a{
+    margin-right: 1em;
+    color: white;
+}
+
+.topNav .navItems a:hover{
+    color: red;
+}
+/* <!-- Nav Section End --> */
+ 
+/* Welcome Section Start */
+
+.welcome{
+    display: flex;
+    align-items:center;
+    min-height: 100vh;
+    background:url(../img/BG.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    }
+
+.welcomeMain{
+    display: flex;
+    /* border: 2px solid; */
+    margin: 0 5%;
+}
+
+.welcomeMain .welcomeLeft{
+    padding-top: 2%; 
+    width: 50%;
+} 
+
+.welcomeLeft h1{
+    font-size: 3em;
+    padding-bottom: 3%;
+    letter-spacing: 2px;
+    font-weight: 800;
+    font-family :  sans-serif;
+    color:white;
+}
+
+.welcomeLeft h1 span{
+    color: red;
+}
+
+.welcomeLeft p{
+    font-size : 1.5em;
+    color: white;
+    padding-bottom: 7%;
+}
+
+/* Welcome Section End */
+ 
+/* About Section Start */
+
+section.about{
+    background-image: url('../img/about-us-bg.jpeg');
+    background-repeat: no-repeat;
+    background-position: center; 
+    width: 100vw; 
+    /* border: 2px solid; */ 
+    background-size: cover;
+}
+
+.aboutMain{
+    display: flex;
+    /* border: 2px solid; */
+    margin: 0 5%;
+    margin-top: 0%;
+    padding-bottom: 0 5%;
+}
+
+.aboutMain .aboutLeft{
+    width: 50%;
+    margin-top: 3%;
+}
+
+.aboutMain .aboutRight{
+    width: 50%;
+    margin-top: 5%;
+}
+
+.aboutMain .aboutRight h1{
+    color:red;
+    font-size: 5em;
+    padding-bottom: 4%;
+}
+
+
+
+.aboutMain .aboutRight p{
+    color:white;
+    font-size: 1.5em;
+    padding-bottom: 7%;
+}
+
+/* About Section End */
+ 
+/* Food Setcion Start */
+
+.foods{
+    margin-top: 3%;
+}
+
+.foodArea{
+    display: flex;
+}
+
+.foodBox{
+    /* border: 2px solid; */
+    padding: 5%;
+    margin: 5%;
+    box-shadow:5px 10px 10px 5px rgba(0, 0, 0, 0.1) ;
+    border-radius: 4%;
+    border: 2px solid;
+}
+
+.foodBox img{
+    max-width: 100%;
+}
+
+.imgDesc h2 {
+    width: 100%;
+    font-size: 20px;
+    font-weight: 900;
+    padding-bottom: 2%;
+}
+
+/* Food Setcion End */
+
+
+
+/* footer Start */
+ section.footer{
+    background-color: #111;
+    margin-top: 5%;
+}
+.footer h1 span{
+    color: red;
+}
+.footer h1{
+    color: white;
+    padding-top: 3%;
+}
+
+.footer h3{
+    color: #fff;
+    padding: 2% 0; 
+}
+/* footer end */
